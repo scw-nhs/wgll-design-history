@@ -20,6 +20,8 @@ export default function(eleventyConfig) {
     dir: {
       // The folder where all your content will live:
       input: 'docs',
+	    // The folder where all your content will live:
+			output: '_site',
     }
   }
 };
