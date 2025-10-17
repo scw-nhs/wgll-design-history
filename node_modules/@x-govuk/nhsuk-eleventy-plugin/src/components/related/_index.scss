@@ -1,0 +1,10 @@
+@use "../../vendor/nhsuk-frontend" as *;
+
+@include nhsuk-exports("nhsuk-eleventy-plugin/components/related") {
+  .app-related {
+    border-top: 1px solid $nhsuk-border-colour;
+
+    @include nhsuk-responsive-margin(7, "bottom");
+    @include nhsuk-responsive-padding(4, "top");
+  }
+}

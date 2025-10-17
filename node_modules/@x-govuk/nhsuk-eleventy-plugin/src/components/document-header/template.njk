@@ -1,0 +1,10 @@
+{% from "components/heading/macro.njk" import appHeading %}
+
+<header class="nhsuk-u-reading-width">
+  {{ appHeading({
+    caption: params.caption,
+    title: params.title,
+    description: params.description
+  }) | indent(2) }}
+</header>
+

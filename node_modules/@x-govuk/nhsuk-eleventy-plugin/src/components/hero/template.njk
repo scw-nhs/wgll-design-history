@@ -1,0 +1,36 @@
+{% from "nhsuk/components/button/macro.njk" import button as nhsukButton %}
+<div class="nhsuk-hero">
+  <div class="nhsuk-width-container nhsuk-hero--border">
+    <div class="nhsuk-grid-row">
+      <div class="nhsuk-grid-column-two-thirds">
+        <div class="nhsuk-hero__wrapper">
+          {% if params.caption %}
+          <span class="nhsuk-caption-xl app-hero__caption">
+            {{- params.caption -}}
+          </span>
+          {% endif %}
+          {% if params.title %}
+          <h1 class="nhsuk-hero__heading{%- if params.headingClasses %} {{ params.headingClasses }}{% endif %}">
+            {{- params.title | smart -}}
+          </h1>
+          {% endif %}
+          {% if params.description %}
+          <p class="nhsuk-body-l{% if not params.startButton %} nhsuk-u-margin-bottom-0{% endif %}">
+            {{- params.description | markdown("inline") | noOrphans -}}
+          </p>
+          {% endif %}
+          {{ nhsukButton({
+            classes: "nhsuk-button--reverse nhsuk-u-margin-0",
+            href: params.startButton.href,
+            text: params.startButton.text | default("Get started")
+          }) | indent(10) if params.startButton }}
+        </div>
+      </div>
+      {% if params.image %}
+      <div class="nhsuk-grid-column-one-third">
+        <img class="app-hero__image" src="{{ params.image.src }}" alt="{{ params.image.alt }}"{% if not params.image.alt %} role="presentation"{% endif %}>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>

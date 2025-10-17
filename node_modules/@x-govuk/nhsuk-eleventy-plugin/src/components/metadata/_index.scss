@@ -1,0 +1,24 @@
+@use "../../vendor/nhsuk-frontend" as *;
+
+@include nhsuk-exports("nhsuk-eleventy-plugin/components/metadata") {
+  .app-metadata {
+    border-bottom: 1px solid $nhsuk-border-colour;
+    border-top: 1px solid $nhsuk-border-colour;
+    color: $nhsuk-secondary-text-colour;
+    margin-top: 0;
+
+    @include nhsuk-font($size: 16, $line-height: 1.5);
+    @include nhsuk-responsive-margin(7, "bottom");
+    @include nhsuk-responsive-padding(4, "bottom");
+    @include nhsuk-responsive-padding(4, "top");
+  }
+
+  .app-metadata__item {
+    display: flex;
+    gap: nhsuk-spacing(2) nhsuk-spacing(1);
+  }
+
+  .app-metadata__definition {
+    margin: 0;
+  }
+}
