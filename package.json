@@ -2,5 +2,26 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
     "@x-govuk/nhsuk-eleventy-plugin": "^1.0.4"
-  }
+  },
+  "name": "wgll-history-v4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "eleventy.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scw-nhs/wgll-design-history.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scw-nhs/wgll-design-history/issues"
+  },
+  "homepage": "https://github.com/scw-nhs/wgll-design-history#readme"
 }
