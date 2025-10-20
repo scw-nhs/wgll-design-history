@@ -17,6 +17,6 @@ This site records the discovery findings, different versions of the rapid protot
 ## Version history
 | Version |	Description	| Link | Date |
 |---|---|---|---|
-| v0.1	| Kickoff and background	| Sprint 0	| 02/10/2025 |
+| v0.1	| Kickoff and background	| [Sprint 0](/sprint0/)	| 15/09/2025 |
 | v0.2	| Setting up the rapid prototype	| [Sprint 1](/sprint1/)	| 07/10/2025 |
 | v0.3	| Importing blueprint index	| [Sprint 2](/sprint2/)	| 15/10/2025 |
