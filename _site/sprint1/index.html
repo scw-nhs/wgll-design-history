@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sprint 1 - NHS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <meta name="theme-color" content="#005eb8">
+
+<link rel="icon" href="/wgll-design-history/assets/images/favicon.ico" sizes="any"><link rel="mask-icon" href="/wgll-design-history/assets/images/nhsuk-icon-mask.svg" color="#005eb8"><link rel="apple-touch-icon" href="/wgll-design-history/assets/images/nhsuk-icon-180.png">
+  <script src="/wgll-design-history/assets/application.js" type="module"></script>
+
+  <link rel="stylesheet" href="/wgll-design-history/assets/application.css">
+
+
+  <meta property="og:title" content="Sprint 1">
+<meta property="og:description" name="description" content="How the team set up a rapid prototype to test with users">
+    <meta property="og:image" content="/assets/images/nhsuk-opengraph-image.png">
+  </head>
+
+  <body>
+    <script>document.body.className += ' js-enabled' + ('noModule' in HTMLScriptElement.prototype ? ' nhsuk-frontend-supported' : '');</script>
+
+        
+<a class="nhsuk-skip-link" href="#maincontent" data-module="nhsuk-skip-link">Skip to main content</a>
+
+
+  
+<header class="nhsuk-header" role="banner" data-module="nhsuk-header">
+  <div class="nhsuk-header__container nhsuk-width-container">
+    <div class="nhsuk-header__service">
+      <svg class="nhsuk-header__logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 80" height="40" width="100" focusable="false" role="img" aria-label="NHS">
+        <title>NHS</title>
+        <path fill="currentcolor" d="M200 0v80H0V0h200Zm-27.5 5.5c-14.5 0-29 5-29 22 0 10.2 7.7 13.5 14.7 16.3l.7.3c5.4 2 10.1 3.9 10.1 8.4 0 6.5-8.5 7.5-14 7.5s-12.5-1.5-16-3.5L135 70c5.5 2 13.5 3.5 20 3.5 15.5 0 32-4.5 32-22.5 0-19.5-25.5-16.5-25.5-25.5 0-5.5 5.5-6.5 12.5-6.5a35 35 0 0 1 14.5 3l4-13.5c-4.5-2-12-3-20-3Zm-131 2h-22l-14 65H22l9-45h.5l13.5 45h21.5l14-65H64l-9 45h-.5l-13-45Zm63 0h-18l-13 65h17l6-28H117l-5.5 28H129l13.5-65H125L119.5 32h-20l5-24.5Z"></path>
+      </svg>
+      
+    </div>
+  </div>
+</header>
+
+
+        <div class="nhsuk-width-container">
+  
+<nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+  <ol class="nhsuk-breadcrumb__list">
+    <li class="nhsuk-breadcrumb__list-item">
+      <a class="nhsuk-breadcrumb__link" href="/wgll-design-history/">Home</a>
+    </li>
+    <li class="nhsuk-breadcrumb__list-item">
+      <a class="nhsuk-breadcrumb__link" href="/wgll-design-history/sprint1/">Sprint 1</a>
+    </li>
+  </ol>
+  
+  
+  <a class="nhsuk-back-link" href="/wgll-design-history/sprint1/">
+    <span class="nhsuk-u-visually-hidden">Back to</span> Sprint 1
+  </a>
+  
+</nav>
+
+          <main class="nhsuk-main-wrapper" id="maincontent">
+  
+<header class="nhsuk-u-reading-width">
+  <h1 class="nhsuk-heading-xl">Sprint 1</h1>
+  
+</header>
+
+
+
+  <dl class="app-metadata nhsuk-u-reading-width">
+  <div class="app-metadata__item">
+    <dt class="app-metadata__term">Posted by</dt>
+    <dd class="app-metadata__definition">WGLL delivery team at SCW</dd>
+  </div>
+  <div class="app-metadata__item">
+    <dt class="app-metadata__term">Published</dt>
+    <dd class="app-metadata__definition">
+      <time datetime="2025-10-07T00:00:00.000Z">7 October 2025</time>
+    </dd>
+  </div>
+</dl>
+
+
+<div class="app-prose-scope nhsuk-u-reading-width">    
+
+    <h2 id="content-development" tabindex="-1" class="nhsuk-heading-l">Content development</h2>
+<p class="nhsuk-body">WGLL is a foundation framework for health and social care transformation. For example, its seven measures are ‘lenses’ for digital maturity assessments, with the framework providing context for self-assessments and signposting to essential guidance and resources. People doing assessments can also access ‘Blueprints’ to see examples of other organisations’ initiatives relating to each success measure.</p>
+<p class="nhsuk-body">However, the discovery suggested that these various resources could be linked more effectively - they are held on a variety of different platforms. The team decided to test its hypothesis that a single platform could help:</p>
+<ol class="nhsuk-list nhsuk-list--number">
+<li>address unmet user needs and points of friction in user journeys identified in [the discovery](/discovery/)</li>
+<li>provide a trusted ‘single source of truth’</li>
+<li>present tailored journeys and tools for different types of user and use cases</li>
+<li>distinguish between the WGLL framework itself and derived products that support specific use cases</li>
+</ol>
+<h2 id="why-word-press" tabindex="-1" class="nhsuk-heading-l">Why WordPress?</h2>
+<p class="nhsuk-body">The team knew that, as a browser-based service, a single platform would have to be accessible (to WCAG 2.1 AA) and built to either NHS or GOV.UK design patterns.</p>
+<p class="nhsuk-body">This narrowed down its choice of Alpha prototype tooling. Figma and AxureRP were felt to be better for trialling static designs and lower fidelity clickable prototypes, whereas the team wanted to design, test and iterate navigation and categorisation from the outset. Wireframes were also considered - essentially allowing users to focus on new or amended content - but, again, the team felt the way people navigate around the content was the area they needed to test most and static wireframes wouldn’t allow that.</p>
+<p class="nhsuk-body">Next, the team considered using the NHS prototype kit, or eleventy (the tool used for this design history). Both create NHS-styled websites without needing lots of developer time. However, neither would easily allow us to try out different approaches to information architecture, search and tagging without extra coding. So the team looked at WordPress. Although an unusual option for an alpha, WordPress:</p>
+<ol class="nhsuk-list nhsuk-list--number">
+<li>provides a fully featured content management system (CMS) which the team’s content designers had used before</li>
+<li>stores content in a relational database which can be readily imported and exported to future platforms</li>
+<li>can be easily styled to look like an NHS service using the NHS Nightingale theme for WordPress (created by Tony Blacker at NHS Digital Academy)</li>
+<li>is highly extensible with a variety of plugins available to support taxonomy and/or ontology development, password protection and other functionality the prototype would need (plus the ability to code custom plugins as needed)</li>
+</ol>
+<h2 id="how-the-site-was-built" tabindex="-1" class="nhsuk-heading-l">How the site was built</h2>
+<p class="nhsuk-body">First, the team set up the prototype website. They:</p>
+<ol class="nhsuk-list nhsuk-list--number">
+<li>bought a domain and added hosting (£14)</li>
+<li>added wildcard SSL (free)</li>
+<li>installed Wordpress, the Nightingale theme and its 2 companion plugins</li>
+<li>set password protection (via Password Protected plugin)</li>
+<li>added users to defined roles</li>
+<li>created some pages</li>
+</ol>
+<p class="nhsuk-body">Referring to their service designer’s initial conceptual model, the team installed some more plugins:</p>
+<ul class="nhsuk-list nhsuk-list--bullet">
+<li>ACF (Advanced Custom Fields) to set custom post types (‘Blueprint’), field groups and taxonomies</li>
+<li>AlphaListing plugin for A-Z listing</li>
+<li>FacetWP (for advanced search with facets)</li>
+<li>Timeline block (for a visual service roadmap)</li>
+<li>WP All Import and its ACF add-on to allow easy import of related content</li>
+<li>Redirection - to redirect ‘archive’ pages to WP Facet pages</li>
+<li>Nested pages - to make it easier to nest pages in the WP admin dashboard</li>
+</ul>
+<p class="nhsuk-body"><a href="/wgll-design-history/" class="nhsuk-link">Return to homepage</a></p>
+
+</div>
+
+
+  
+          </main>
+        </div>
+
+  
+<footer class="nhsuk-footer" role="contentinfo">
+  <div class="nhsuk-width-container">
+    <div class="nhsuk-footer__meta">
+      <p class="nhsuk-body-s">© NHS England</p>
+    </div>
+  </div>
+</footer>
+
+
+  </body>
+</html>
