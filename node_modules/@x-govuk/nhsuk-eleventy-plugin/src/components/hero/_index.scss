@@ -1,0 +1,17 @@
+@use "../../vendor/nhsuk-frontend" as *;
+
+@include nhsuk-exports("nhsuk-eleventy-plugin/components/hero") {
+  .app-hero__caption {
+    color: $nhsuk-reverse-text-colour;
+  }
+
+  .app-hero__image {
+    max-width: 100%;
+
+    @include nhsuk-responsive-padding(8, "top");
+
+    @include nhsuk-media-query($until: desktop) {
+      display: none;
+    }
+  }
+}

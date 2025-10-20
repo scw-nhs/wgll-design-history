@@ -1,0 +1,8 @@
+@use "../../vendor/nhsuk-frontend" as *;
+
+@include nhsuk-exports("nhsuk-eleventy-plugin/components/image") {
+  .app-image--full {
+    max-width: 100%;
+    width: 100%;
+  }
+}

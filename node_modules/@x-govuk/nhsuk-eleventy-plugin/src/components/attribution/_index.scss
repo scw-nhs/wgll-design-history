@@ -1,0 +1,13 @@
+@use "../../vendor/nhsuk-frontend" as *;
+
+@include nhsuk-exports("nhsuk-eleventy-plugin/components/attribution") {
+  .app-attribution {
+    margin: 0 0 nhsuk-spacing(4);
+  }
+
+  .app-attribution__caption {
+    color: $nhsuk-secondary-text-colour;
+    margin: nhsuk-spacing(-2) 0 nhsuk-spacing(6);
+    padding: 0 0 0 nhsuk-spacing(6);
+  }
+}

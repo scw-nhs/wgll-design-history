@@ -1,0 +1,18 @@
+@use "../../vendor/nhsuk-frontend" as *;
+
+@include nhsuk-exports("nhsuk-eleventy-plugin/components/contents-list") {
+  .nhsuk-contents-list ol {
+    // stylelint-disable-next-line scss/at-extend-no-missing-placeholder
+    @extend .nhsuk-contents-list__list;
+  }
+
+  .nhsuk-contents-list li {
+    // stylelint-disable-next-line scss/at-extend-no-missing-placeholder
+    @extend .nhsuk-contents-list__item;
+  }
+
+  .nhsuk-contents-list a {
+    // stylelint-disable-next-line scss/at-extend-no-missing-placeholder
+    @extend .nhsuk-contents-list__link;
+  }
+}
