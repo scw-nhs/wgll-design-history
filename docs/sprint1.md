@@ -41,6 +41,8 @@ First, the team set up the prototype website. They:
 5. added users to defined roles
 6. created some pages
 
+![WGLL v1 - as published - recreated in WordPress](/assets/images/prototype-wgll-v1.png "WGLL v1 - as published - recreated in WordPress")
+
 Referring to their service designer's initial conceptual model, the team installed some more plugins:
 
 * ACF (Advanced Custom Fields) to set custom post types ('Blueprint'), field groups and taxonomies

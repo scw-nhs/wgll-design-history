@@ -3,6 +3,7 @@ homepage: true
 header: organisation
 layout: product
 title: What Good Looks Like (WGLL) refresh
+description: Design history
 startButton:
  href: "https://wgll-prototype.uk/"
  text: View the current prototype

@@ -25,7 +25,9 @@ The team will work in three stages - discovery (review/research), alpha (test, l
 
 ## Blueprints
 
-Work has already been done on WGLLv2. This version represents a detailed operational guide with specific actions for both ICSs and individual organisations, including implementation steps, governance structures, and links to supporting resources. V2 also expands each success measure into actionable items for ICSs and organisations, whereas V1 presents them as broad thematic goals. The team was asked to look at 5 priority areas for 'blueprint' examples of good practice:
+Work has already been done on WGLLv2. This version represents a detailed operational guide with specific actions for both ICSs and individual organisations, including implementation steps, governance structures, and links to supporting resources. V2 also expands each success measure into actionable items for ICSs and organisations, whereas V1 presents them as broad thematic goals. 
+
+The team was asked to look at 5 priority areas for 'blueprint' examples of good practice:
 
 * GPs/Primary care
 * EPR implementation and optimisation
