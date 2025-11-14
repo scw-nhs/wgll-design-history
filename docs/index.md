@@ -4,6 +4,10 @@ header: organisation
 layout: product
 title: What Good Looks Like (WGLL) refresh
 description: Design history
+image:
+  src: /assets/images/wgll-3.svg
+  alt: The 7 pillars of WGLL displayed in a graphic.
+  hideOnMobile: true
 startButton:
  href: "https://wgll-prototype.uk/"
  text: View the current prototype
