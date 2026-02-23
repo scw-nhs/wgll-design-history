@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Version 3
+title: Version 1
 description: Creating a modular structure
 includeInBreadcrumbs: true
 date: 2025-12-19
