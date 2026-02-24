@@ -1,4 +1,11 @@
-# NHS Nightingale (WordPress) – “Metrics” Two‑Column Table (Success measure / How it is measured)
+---
+layout: post
+title: Guidance on the Metrics Table plug-in
+description:  NHS Nightingale (WordPress) – “Metrics” Two‑Column Table (Success measure / How it is measured)
+includeInBreadcrumbs: true
+date: 2026-01-30
+author: WGLL delivery team at SCW
+---
 
 ## Functionality needed
 
