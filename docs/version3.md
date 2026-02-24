@@ -20,7 +20,7 @@ The breakdown of content into modules in the [first sprint](/version1/) identifi
 The team then created:
 
 * [guidance on setting up the plugin](/nhs-metrics-plugin-guidance)
-* [a working practice for content editors](/assets/pdfs/Add&Metrics&and&Blueprints&to&WGLL&success&measures.pdf)
+* [a working practice for content editors](/assets/pdfs/WGLL-working-practice.pdf)
 
 The working practice covers the process for adding metrics and blueprint references to WGLL success measure pages - the sub-pages beneath each of the seven pillars - within the WordPress admin interface. 
 
