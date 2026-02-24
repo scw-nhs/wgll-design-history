@@ -16,7 +16,6 @@ Blueprints were set up as ACF custom post types, with a custom field group to ha
 MS CoPilot was used to help write the php code because the team wanted query parameters in the shortcode to help determine how the table was sorted and what was displayed, and this needed some js and json:
 
 ```
-<?php
 /**
  * Plugin Name: NHSUK Related Blueprints by Pillar (MU)
  * Description: Lists related 'blueprint' posts that share any 'pillar' terms with the current post. Provides a shortcode and a server-rendered dynamic block. Outputs an NHS.UK-styled table.
