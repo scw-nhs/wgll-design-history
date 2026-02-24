@@ -25,5 +25,5 @@ This site records the discovery findings, different versions of the rapid protot
 | v0.1	| Kickoff and background	| [Sprint 0](/sprint0/)	| 15/09/2025 |
 | v0.2	| Setting up the rapid prototype	| [Sprint 1](/sprint1/)	| 07/10/2025 |
 | v0.3	| Importing blueprint index	| [Sprint 2](/sprint2/)	| 15/10/2025 |
-| v1 | Modular content | [Alpha version 1](/version1.md) | 19/12/2025 |
-| v2 | Tagging to blueprints | [Alpha version 2](/version2.md) | 16/01/2026 |
+| v1 | Modular content | [Alpha version 1](/version1/) | 19/12/2025 |
+| v2 | Tagging to blueprints | [Alpha version 2](/version2/) | 16/01/2026 |
