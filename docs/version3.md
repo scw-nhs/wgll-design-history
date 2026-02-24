@@ -3,7 +3,7 @@ layout: post
 title: Version 3
 description: Adding metrics to WGLL success measures
 includeInBreadcrumbs: true
-date: 2026-02-30
+date: 2026-01-30
 author: WGLL delivery team at SCW
 ---
 ## User research - why metrics are needed
