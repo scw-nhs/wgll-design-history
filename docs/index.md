@@ -28,3 +28,4 @@ This site records the discovery findings, different versions of the rapid protot
 | v1 | Modular content | [Alpha version 1](/version1/) | 19/12/2025 |
 | v2 | Tagging to blueprints | [Alpha version 2](/version2/) | 16/01/2026 |
 | v3 | Adding metrics to success measure pages | [Alpha version 3](/version3/) | 30/01/2026 |
+| v3 | Testing version 3 | [Insights from usability testing](/version3-testing/) | 13/02/2026 |
