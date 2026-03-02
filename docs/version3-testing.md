@@ -11,7 +11,7 @@ Users felt the design was clear and recognisable as an NHS information website. 
 
 Overall, usability research suggested that the design could be improved - for example, the homepage should immediately orient users and avoid them having to scroll down. 
 
-> "It's not immediately clear from the homepage that WGLL is about digital, for those unfamiliar with it"
+> It's not immediately clear from the homepage that WGLL is about digital, for those unfamiliar with it
 
 Some users expected a clearly labelled 'home' page - this is currently the main WGLL guidance index page. This reflected the need to orient users to WGLL's purpose and current state of development, as well as expectations set by the [current version of WGLL](https://transform.england.nhs.uk/digitise-connect-transform/what-good-looks-like/). This included a summary on each page of how and when it had changed.
 
@@ -30,13 +30,13 @@ Users valued the contextual links to relevant blueprints from each success measu
 ## Individual success measures ('metrics table')
 All users liked the table presenting specific measures next to information about how they were measured. However, one user felt this shifted the focus of WGLL away from improvement:
 
-> "If the purpose of WGLL is to grow organisations and people then should be more focused on providing guidance and resources on how to improve, rather than focusing on how orgs will be measured."
+> If the purpose of WGLL is to grow organisations and people then should be more focused on providing guidance and resources on how to improve, rather than focusing on how orgs will be measured.
 
 Another user said they would go to the DMA to see how they were being measured. Some stakeholders felt that improving digital maturity should be the main focus of WGLL and the current amount of information currently provided could be overwhelming and/or distract from this core purpose.
 
 ## Accessibility
 Some users wanted to make sure the site was fully accessible from the outset - for example, following NHS design patterns and using alt text on all images.
 
-[Next - Prototype Version 4](/version4.md)
+[Next - Prototype Version 4](/version4/)
 
 [Return to homepage](/)
