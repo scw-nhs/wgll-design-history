@@ -37,6 +37,6 @@ Another user said they would go to the DMA to see how they were being measured. 
 ## Accessibility
 Some users wanted to make sure the site was fully accessible from the outset - for example, following NHS design patterns and using alt text on all images.
 
-[Next - Prototype Version 4](/version4/)
+[Next - Developing version 4](/version4/)
 
 [Return to homepage](/)
