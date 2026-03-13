@@ -7,7 +7,7 @@ date: 2026-01-30
 author: WGLL delivery team at SCW
 ---
 ## User research - why metrics are needed
-Some users felt that WGLL needed to have 'teeth' - it should explicitly link to things that NHS organisations need to do in order to deliver on local and national priorities and policies. These are measured in a variety of ways - for example, digital maturity assessments, DSPT toolkits for cyber and so on. 
+A key theme in user research and stakeholder engagement is that WGLL needs to have 'teeth' - it should explicitly link to things that NHS organisations need to do in order to deliver on local and national priorities and policies. These are measured in a variety of ways - for example, digital maturity assessments, DSPT toolkits for cyber and so on. 
 
 To ensure WGLL remains relevant and up-to-date, the team needed to make sure each success measure is actually measured. And, to make it easier for users, they needed to provide a direct link to the ways this is done - potentially up to 3 different ways.
 
@@ -30,5 +30,7 @@ Using a taxonomy and field group with a custom plugin has three key benefits:
 1. metrics can be reused, meaning they are easier to maintain than reviewing pages separately
 2. it keeps WGLL v3 platform-agnostic, meaning the relationships are 'live' and can be exported
 3. it saves time taken to create separate tables on each success measure page (and should improve consistency)
+
+This significantly reduced repetitive tasks like styling tables, reducing the need for checks and improving consistency.
 
 [Return to homepage](/)
