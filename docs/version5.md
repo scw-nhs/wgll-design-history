@@ -30,6 +30,15 @@ Version 4 of the alpha addressed some of the remaining [issues identified in use
 
 Overall, the team felt comfortable that it would be able to tell its story well at assessment if required. 
 
+## Content handover options
+The WGLL team met with the NHSE web team who are planning the consolidation of the various NHSE web pages. They discussed 3 possible options for beta:
+
+1. **WGLL would become a standalone website on an nhs.uk domain**. This would retain all the alpha's additional functionality developed to meet user needs (such as its index of blueprints), and even, subject to work on accessiblity, allow the WordPress platform to be maintained. Blueprints could be added to this platform if FutureNHS was discontinued, as could targeted improvement resources based on WGLL success measure content.
+2. **WGLL would become part of wider guidance on good practice**. Potentially, some aspects of the modular content could be retained, subject to the destination platform's functionality. WGLL's 7 pillars are widely recognised and could be used as a structural framework for reporting. This could improve the link between mandatory and optional measurement and assessment tools like DMA and DSPT.
+3. **WGLL would be retained as a guidance webpage with PDF version**. The long-form guidance could be migrated into a new content management system and retained, as before, as a long html web page. This would reduce its usability but protect the considerable content redesign work. Dynamically generated tables and other page elements can be recreated as static content.
+
+The alpha prototype supports all 3 options so the team focused on making sure that options 1 and 2 (the more complex options) had sufficient documentation to inform future work.
+
 ## Handover documentation
 
 | Item | Description
@@ -37,6 +46,6 @@ Overall, the team felt comfortable that it would be able to tell its story well 
 | [Alpha prototype documentation](/) | The main documentation for the Alpha prototype development, complementing this design history
 | [Nightingale child theme](/) Zip file (579kb) | Download the child theme used in the Alpha with all templates, parts, partials
 | [How to add metrics and blueprints](/assets/pdfs/WGLL-working-practice.pdf) | Working practice for content designers to update metrics metadata
-| [Aligning WGLL to OAM](/assets/WGLL-align-OAM.pdf) | Paper exploring how WGLL pillars align to OAM business capabilities
+| [Aligning WGLL to OAM](/assets/pdfs/WGLL-align-OAM.pdf) | Paper exploring how WGLL pillars align to OAM business capabilities
 
 [Return to homepage](/)
