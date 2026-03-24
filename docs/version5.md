@@ -37,5 +37,6 @@ Overall, the team felt comfortable that it would be able to tell its story well 
 | [Alpha prototype documentation](/) | The main documentation for the Alpha prototype development, complementing this design history
 | [Nightingale child theme](/) Zip file (579kb) | Download the child theme used in the Alpha with all templates, parts, partials
 | [How to add metrics and blueprints](/assets/pdfs/WGLL-working-practice.pdf) | Working practice for content designers to update metrics metadata
+| [Aligning WGLL to OAM](/assets/WGLL-align-OAM.pdf) | Paper exploring how WGLL pillars align to OAM business capabilities
 
 [Return to homepage](/)
