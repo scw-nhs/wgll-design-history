@@ -43,7 +43,7 @@ The alpha prototype supports all 3 options so the team focused on making sure th
 
 | Item | Description
 | --- | --- 
-| [Alpha prototype documentation](/) | The main documentation for the Alpha prototype development, complementing this design history
+| [Alpha prototype documentation]([/](/assets/pdfs/WGLL-alpha-technical-documentation.pdf)) PDF (1.7Mb) | The main documentation for the Alpha prototype development, complementing this design history
 | [Nightingale child theme](/) Zip file (579kb) | Download the child theme used in the Alpha with all templates, parts, partials
 | [How to add metrics and blueprints](/assets/pdfs/WGLL-working-practice.pdf) | Working practice for content designers to update metrics metadata
 | [Aligning WGLL to OAM](/assets/pdfs/WGLL-align-OAM.pdf) | Paper exploring how WGLL pillars align to OAM business capabilities
